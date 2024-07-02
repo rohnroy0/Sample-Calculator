@@ -76,16 +76,22 @@ public class calculator implements ActionListener {
         jf.add(sevenButton);/*to add button to the frame */
         sevenButton.setBounds(20,120,60,60);/*size and offset of the button */
         sevenButton.addActionListener(this);/*to get access to the button */
+        sevenButton.setBackground(Color.lightGray);
+        sevenButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         eightButton=new JButton("8");
         jf.add(eightButton);
         eightButton.setBounds(100,120,60,60);
         eightButton.addActionListener(this);
+        eightButton.setBackground(Color.lightGray);
+        eightButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         nineButton=new JButton("9");
         jf.add(nineButton);
         nineButton.setBounds(180,120,60,60);
         nineButton.addActionListener(this);
+        nineButton.setBackground(Color.lightGray);
+        nineButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         /*second row */
 
@@ -93,16 +99,22 @@ public class calculator implements ActionListener {
         jf.add(fourButton);
         fourButton.setBounds(20, 200, 60, 60);
         fourButton.addActionListener(this);
+        fourButton.setBackground(Color.lightGray);
+        fourButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         fiveButton=new JButton("5");
         jf.add(fiveButton);
         fiveButton.setBounds(100, 200, 60, 60);
         fiveButton.addActionListener(this);
+        fiveButton.setBackground(Color.lightGray);
+        fiveButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         sixButton=new JButton("6");
         jf.add(sixButton);
         sixButton.setBounds(180, 200, 60, 60);
         sixButton.addActionListener(this);
+        sixButton.setBackground(Color.lightGray);
+        sixButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
 
         /*third row */
@@ -111,16 +123,22 @@ public class calculator implements ActionListener {
         jf.add(oneButton);
         oneButton.setBounds(20, 280, 60, 60);
         oneButton.addActionListener(this);
+        oneButton.setBackground(Color.lightGray);
+        oneButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         twoButton=new JButton("2");
         jf.add(twoButton);
         twoButton.setBounds(100, 280, 60, 60);
         twoButton.addActionListener(this);
+        twoButton.setBackground(Color.lightGray);
+        twoButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         threeButton=new JButton("3");
         jf.add(threeButton);
         threeButton.setBounds(180, 280, 60, 60);
         threeButton.addActionListener(this);
+        threeButton.setBackground(Color.lightGray);
+        threeButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
 
 
@@ -131,16 +149,22 @@ public class calculator implements ActionListener {
         jf.add(zeroButton);
         zeroButton.setBounds(20, 360, 60, 60);
         zeroButton.addActionListener(this);
+        zeroButton.setBackground(Color.lightGray);
+        zeroButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         dotButton=new JButton(".");
         jf.add(dotButton);
         dotButton.setBounds(100, 360, 60, 60);
         dotButton.addActionListener(this);
+        dotButton.setBackground(Color.lightGray);
+        dotButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         clearButton=new JButton("clr");
         jf.add(clearButton);
         clearButton.setBounds(180, 360, 60, 60);
         clearButton.addActionListener(this);
+        clearButton.setBackground(Color.lightGray);
+        clearButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         /*operator column */
 
@@ -148,27 +172,37 @@ public class calculator implements ActionListener {
         jf.add(addButton);
         addButton.setBounds(280,120,80,60);
         addButton.addActionListener(this);
+        addButton.setBackground(Color.lightGray);
+        addButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         minusButton=new JButton("-");
         jf.add(minusButton);
         minusButton.setBounds(280,200,80,60);
         minusButton.addActionListener(this);
+        minusButton.setBackground(Color.lightGray);
+        minusButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         multiButton=new JButton("*");
         jf.add(multiButton);
         multiButton.setBounds(280,280,80,60);
         multiButton.addActionListener(this);
+        multiButton.setBackground(Color.lightGray);
+        multiButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
         divButton=new JButton("/");
         jf.add(divButton);
         divButton.setBounds(280,360,80,60);
         divButton.addActionListener(this);
+        divButton.setBackground(Color.lightGray);
+        divButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
 
         equalButton= new JButton("=");
         jf.add(equalButton);
         equalButton.setBounds(80,425,200,30);
         equalButton.addActionListener(this);
+        equalButton.setBackground(Color.lightGray);
+        equalButton.setFont(new Font("Verdana", Font.PLAIN, 20));
 
 
 
