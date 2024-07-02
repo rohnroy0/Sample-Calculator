@@ -1,6 +1,7 @@
 
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -66,7 +67,8 @@ public class calculator implements ActionListener {
         displaylabel.setBackground(Color.gray);/*to change the background color of display */
         displaylabel.setHorizontalAlignment(SwingConstants.RIGHT);/*to align the text on the display to rightS */
         displaylabel.setForeground(Color.white);/*to change the font color */
-
+        displaylabel.setFont(new Font("Verdana", Font.PLAIN, 30));/*to change the font size */
+        
 
         /*first row */
 
